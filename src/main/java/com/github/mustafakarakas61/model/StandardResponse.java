@@ -18,8 +18,20 @@ public class StandardResponse<T> {
         return message;
     }
 
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
     public T getData() {
         return data;
+    }
+
+    public void setData(T data) {
+        this.data = data;
+    }
+
+    public void setSuccess(boolean success) {
+        this.success = success;
     }
 
     public boolean isSuccess() {
