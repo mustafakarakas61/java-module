@@ -14,7 +14,7 @@
 
     <groupId>com.github.mustafakarakas61</groupId>
     <artifactId>java-module</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
     <name>Java Module</name>
 </project>
