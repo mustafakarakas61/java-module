@@ -1,9 +1,12 @@
 package com.github.mustafakarakas61.model;
 
 public class StandardResponse<T> {
-    private final String message;
+    private String message;
     private T data;
-    private final boolean success;
+    private boolean success;
+
+    public StandardResponse() {
+    }
 
     public StandardResponse(String message, T data, boolean success) {
         this.message = message;
